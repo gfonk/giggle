@@ -8,14 +8,15 @@ Gem::Specification.new do |spec|
   spec.version       = Giggle::VERSION
   spec.authors       = ["Gerald Fontejon"]
   spec.email         = ["gerald.fontejon@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{short description of giggle project.}
+  spec.description   = %q{longer description of giggle project.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  # spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.test_files    = spec.files.grep(%r{^(test)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
