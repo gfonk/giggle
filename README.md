@@ -1,6 +1,6 @@
 # Giggle
 
-TODO: Write a gem description
+This project is a test project my personal use.  Feel free to fork...
 
 ## Installation
 
