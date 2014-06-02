@@ -6,6 +6,6 @@ class GiggleTest < Test::Unit::TestCase
   end
 
   def test_giggle_version
-    assert_equal "0.0.2", Giggle::VERSION
+    assert_equal "0.0.1", Giggle::VERSION
   end
 end
