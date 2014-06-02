@@ -1,4 +1,4 @@
-require "bundler/gem_tasks" # for distribution to rubygems - rake release
+# require "bundler/gem_tasks" # for distribution to rubygems - rake release
 require "rake/testtask"
 
 Rake::TestTask.new do |t|
