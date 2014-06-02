@@ -1,4 +1,5 @@
 # require "bundler/gem_tasks" # for distribution to rubygems - rake release
+# <empty line>
 require "rake/testtask"
 
 Rake::TestTask.new do |t|
@@ -8,3 +9,5 @@ Rake::TestTask.new do |t|
 end
 
 task default: :test
+
+
